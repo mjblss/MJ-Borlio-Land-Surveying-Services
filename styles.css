@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #002F6C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FF7F00;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.services-section, .contact-section {
+    padding: 50px 20px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    color: #FF7F00;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.services-section ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.services-section ul li {
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.services-section ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Indent main list */
+}
+
+/* Remove bullets from the main list */
+.services-section ul {
+    list-style-type: none; /* No bullets for main list */
+    padding-left: 1; /* Remove indentation for main list */
+}
+
+/* Add bullets only to the nested list under "Sketch Plan with Vicinity Map" */
+.sub-services {
+    list-style-type: disc; /* Bullets for nested list */
+    font-size: 0.7em;
+    padding-left: 30px; /* Indent nested list further */
+    margin-top: 10px; /* Optional: add spacing for readability */
+}
+
+.services-section ul li {
+    margin-bottom: 10px; /* Adds space between each service item */
+}
+.cost-estimator-section {
+    background-color: #f2f2f2;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.cost-estimator-section h2 {
+    color: #FF7F00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#estimator-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+#estimator-form input, #estimator-form select, #estimator-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#estimator-form button {
+    background-color: #FF7F00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+#cost-output {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #002F6C;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #ffffff;
+    color: #002F6C;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-section p {
+    margin: 10px 0;
+}
+
+.contact-icon {
+    font-size: 1.2em;
+    color: #FF7F00;
+}
+
+footer {
+    background-color: #002F6C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}

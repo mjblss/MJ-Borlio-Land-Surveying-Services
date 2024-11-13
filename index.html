@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ Borlio Land Surveying Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="MJ Borlio Logo" class="logo">
+            <h1>MJ Borlio Land Surveying Services</h1>
+            <p>FREE CONSULTATION! INQUIRE NOW!</p>
+        </div>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services" class="services-section">
+    <h2>Services Offered:</h2>
+    <ul>
+        <li>Relocation Survey</li>
+        <li>Subdivision Survey</li>
+        <li>Consolidation Survey</li>
+        <li>Topographic Survey</li>
+        <li>Verification Survey</li>
+        <li>Engineering Survey</li>
+        <li>Titling Assistance</li>
+        <li>Sketch Plan with Vicinity Map
+            <ul class="sub-services">
+                <li>BIR & DAR Reference</li>
+                <li>PAG-IBIG/Bank Loan</li>
+                <li>Building Permit/Fencing Permit</li>
+                <li>Any other legal purposes</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<section id="cost-estimator" class="cost-estimator-section">
+    <h2>Cost Estimation</h2>
+    <form id="estimator-form">
+        <label for="area-size">Size of Area (in sq.m):</label>
+        <input type="number" id="area-size" name="area-size" required>
+
+        <label for="survey-type">Type of Survey:</label>
+        <select id="survey-type" name="survey-type" required>
+            <option value="relocation">Relocation Survey</option>
+            <option value="subdivision">Subdivision Survey</option>
+            <option value="consolidation">Consolidation Survey</option>
+            <option value="topographic">Topographic Survey</option>
+            <option value="verification">Verification Survey</option>
+            <option value="engineering">Engineering Survey</option>
+        </select>
+
+        <label for="num-lots">Number of Lots:</label>
+        <input type="number" id="num-lots" name="num-lots" required>
+
+        <label for="land-classification">Classification of Land:</label>
+        <select id="land-classification" name="land-classification" required>
+            <option value="residential">Residential</option>
+            <option value="commercial">Commercial</option>
+            <option value="agricultural">Agricultural</option>
+            <option value="industrial">Industrial</option>
+        </select>
+
+        <label for="location">Location (Proximity to Urban Center):</label>
+        <select id="location" name="location" required>
+            <option value="urban">Urban</option>
+            <option value="suburban">Suburban</option>
+            <option value="rural">Rural</option>
+        </select>
+
+        <button type="button" onclick="calculateCost()">Estimate Cost</button>
+    </form>
+    <div id="cost-output"></div>
+</section>
+
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p><strong>Engr. Marvy Joy A. Borlio</strong></p>
+        <p><span class="contact-icon">📞</span> 09505846043</p>
+        <p><span class="contact-icon">📧</span> mjb.lss888@gmail.com</p>
+        <p>DTI Certified | BIR Registered</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MJ Borlio Land Surveying Services. All rights reserved.</p>
+    </footer>
+<script src="scripts.js"></script>
+
+</body>
+</html>
